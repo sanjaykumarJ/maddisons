@@ -3,31 +3,39 @@ import logoDark from "@/images/logo2.png";
 
 export const LogoImage = {
   light: logoLight,
-  dark: logoDark
+  dark: logoDark,
 };
 
 export const NavLinks = [
   {
     name: "Home",
     url: "/",
+    // subItems: [
+    //   {
+    //     name: "Home 01",
+    //     url: "/"
+    //   },
+    //   {
+    //     name: "Home 02",
+    //     url: "/index-2"
+    //   },
+    //   {
+    //     name: "Home 03",
+    //     url: "/index-3"
+    //   }
+    // ]
+  },
+  {
+    name: "Dump Bodies",
+    url:'',
     subItems: [
-      {
-        name: "Home 01",
-        url: "/"
-      },
-      {
-        name: "Home 02",
-        url: "/index-2"
-      },
-      {
-        name: "Home 03",
-        url: "/index-3"
-      }
-    ]
+      { name: "Mbc Standard Series", url: "/mbc-standard" },
+      { name: "Mbc Tub series", url: "/mbc-tub" },
+    ],
   },
   {
     name: "About",
-    url: "/about"
+    url: "/about",
   },
   {
     name: "Services",
@@ -35,54 +43,60 @@ export const NavLinks = [
     subItems: [
       {
         name: "Services",
-        url: "/service"
+        url: "/service",
       },
       {
         name: "Service Details",
-        url: "/service-details"
-      }
-    ]
+        url: "/service-details",
+      },
+    ],
   },
   {
-    name: "Portfolio",
-    url: "/portfolio",
+    name: "Components",
+    url: "",
     subItems: [
       {
-        name: "Portfolio 01",
-        url: "/portfolio"
+        name: "Tail gate",
+        url: "/components/tail-gate",
       },
       {
-        name: "Portfolio Details",
-        url: "/portfolio-details"
-      }
-    ]
-  },
-  {
-    name: "Blog",
-    url: "/blog",
-    subItems: [
-      {
-        name: "Blog 01",
-        url: "/blog"
+        name: "Tail gate Lift Bracket",
+        url: "/component/tail-gate-lift-bracket",
       },
       {
-        name: "Blog 02",
-        url: "/blog-2"
+        name: "Tail gate Lock Cylinder",
+        url: "/components/tail-gate-lock-cylinder",
       },
       {
-        name: "Blog 03",
-        url: "/blog-3"
+        name: "Tail gate Lift Cylinder Cover",
+        url: "/components/tail-gate-lift-cylinder-cover",
       },
       {
-        name: "Blog Details",
-        url: "/blog-single"
-      }
-    ]
+        name: "Tail gate Lock Adjuster",
+        url: "/components/tail-gate-lock-adjuster",
+      },
+      {
+        name: "Tail gate Lock Lever",
+        url: "/components/tail-gate-lock-lever",
+      },
+      {
+        name: "Tail gate Lock Actuator",
+        url: "/components/tail-gate-lock-actuator",
+      },
+      {
+        name: "Dump Body Tilt Cylinder",
+        url: "/component/dump-body-tilt-cylinder",
+      },
+      {
+        name: "Hydraulic Tank & Hose/Tubes",
+        url: "/component/hydraulic-tank-hose",
+      },
+    ],
   },
   {
     name: "Contact",
-    url: "/contact"
-  }
+    url: "/contact",
+  },
 ];
 
 import sliderOne01 from "@/images/slider/1_1.jpeg";
@@ -95,8 +109,8 @@ export const SliderOneData = [
     title: "SMART WEB \n DESIGN AGENCY.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about"
-    }
+      url: "/about",
+    },
   },
   {
     image: sliderOne02,
@@ -104,9 +118,9 @@ export const SliderOneData = [
     title: "SMART WEB \n DESIGN AGENCY.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about"
-    }
-  }
+      url: "/about",
+    },
+  },
 ];
 
 import sliderTwo01 from "@/images/slider/2_1.jpg";
@@ -120,8 +134,8 @@ export const SliderTwoData = [
     title: "DIGITAL\nMARKETING\nAGENCY.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about"
-    }
+      url: "/about",
+    },
   },
   {
     image: sliderTwo02,
@@ -129,8 +143,8 @@ export const SliderTwoData = [
     title: "DIGITAL\nMARKETING\nAGENCY.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about"
-    }
+      url: "/about",
+    },
   },
   {
     image: sliderTwo03,
@@ -138,9 +152,9 @@ export const SliderTwoData = [
     title: "DIGITAL\nMARKETING\nAGENCY.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about"
-    }
-  }
+      url: "/about",
+    },
+  },
 ];
 
 import sliderThree01 from "@/images/slider/3_1.jpg";
@@ -153,8 +167,8 @@ export const SliderThreeData = [
     title: "SMART WEB\n DESIGN AGENCY.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about"
-    }
+      url: "/about",
+    },
   },
   {
     image: sliderThree02,
@@ -162,16 +176,16 @@ export const SliderThreeData = [
     title: "SMART WEB\n DESIGN AGENCY.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about"
-    }
-  }
+      url: "/about",
+    },
+  },
 ];
 
 export const ContactInfosBlock = {
   subTitle: "our offices",
   title: "offices near you",
   description:
-    "We are committed to providing our customers with exceptional service while \n offering our employees the best training."
+    "We are committed to providing our customers with exceptional service while \n offering our employees the best training.",
 };
 
 export const ContactInfosList = [
@@ -179,65 +193,65 @@ export const ContactInfosList = [
     title: "austin",
     infos: [
       {
-        name: "22 Texas West Hills"
+        name: "22 Texas West Hills",
       },
       {
-        name: "needhelp@meipaly.com"
+        name: "needhelp@meipaly.com",
       },
       {
-        name: "666 888 000"
-      }
-    ]
+        name: "666 888 000",
+      },
+    ],
   },
   {
     title: "boston",
     infos: [
       {
-        name: "5 Federal Street Boston"
+        name: "5 Federal Street Boston",
       },
       {
-        name: "needhelp@meipaly.com"
+        name: "needhelp@meipaly.com",
       },
       {
-        name: "666 888 000"
-      }
-    ]
+        name: "666 888 000",
+      },
+    ],
   },
   {
     title: "new york",
     infos: [
       {
-        name: "8th Broklyn New York"
+        name: "8th Broklyn New York",
       },
       {
-        name: "needhelp@meipaly.com"
+        name: "needhelp@meipaly.com",
       },
       {
-        name: "666 888 000"
-      }
-    ]
+        name: "666 888 000",
+      },
+    ],
   },
   {
     title: "baltimore",
     infos: [
       {
-        name: "3 Lombabr 50 baltimore"
+        name: "3 Lombabr 50 baltimore",
       },
       {
-        name: "needhelp@meipaly.com"
+        name: "needhelp@meipaly.com",
       },
       {
-        name: "666 888 000"
-      }
-    ]
-  }
+        name: "666 888 000",
+      },
+    ],
+  },
 ];
 
 export const ContactFormTitle = {
   subTitle: "Contact with us",
   title: "write us a message",
   description:
-    "We are committed to providing our customers with exceptional service while \n      offering our employees the best training. "
+    "We are committed to providing our customers with exceptional service while \n      offering our employees the best training. ",
 };
 
 import blogImage1 from "@/images/blog/1.jpg";
@@ -252,38 +266,38 @@ export const BlogData = [
     title: "basic rules of running web agency business",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage1
+    image: blogImage1,
   },
   {
     title: "Become the best sale marketer",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage2
+    image: blogImage2,
   },
   {
     title: "Introducing latest mopaly features",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage3
+    image: blogImage3,
   },
   {
     title: "a deep understanding of our audience",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage4
+    image: blogImage4,
   },
   {
     title: "We build and activate brands insight",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage5
+    image: blogImage5,
   },
   {
     title: "experiences that connect with people",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage6
-  }
+    image: blogImage6,
+  },
 ];
 
 import blogImageTwo1 from "@/images/blog/14.jpg";
@@ -295,52 +309,51 @@ export const BlogTwoData = [
       "Dynamically procrastinate unique vortals with global best practices.",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImageTwo1
+    image: blogImageTwo1,
   },
   {
     title: "Become the best sale marketer",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage2
+    image: blogImage2,
   },
   {
     title: "Introducing latest mopaly features",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage3
+    image: blogImage3,
   },
   {
     title: "a deep understanding of our audience",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage4
+    image: blogImage4,
   },
   {
     title: "We build and activate brands insight",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage5
+    image: blogImage5,
   },
   {
     title:
       "Holisticly conceptualize backend scenarios via accurate technologies.",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImageTwo2
+    image: blogImageTwo2,
   },
   {
     title: "experiences that connect with people",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage6
-  }
+    image: blogImage6,
+  },
 ];
 
 export const BlogHomeSection = {
   subTitle: "our news & articles",
   title: "latest blog posts",
-  text:
-    "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
+  text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
 };
 
 import blogS1 from "@/images/blog/11.jpg";
@@ -351,18 +364,18 @@ export const BlogSidebarPost = [
   {
     title: "basic rules of running web agency",
     image: blogS1,
-    url: "/blog-single"
+    url: "/blog-single",
   },
   {
     title: "basic rules of running web agency",
     image: blogS2,
-    url: "/blog-single"
+    url: "/blog-single",
   },
   {
     title: "basic rules of running web agency",
     image: blogS3,
-    url: "/blog-single"
-  }
+    url: "/blog-single",
+  },
 ];
 
 import commentImage1 from "@/images/blog/9.jpg";
@@ -374,15 +387,15 @@ export const BlogComments = [
     name: "David Martin",
     data: "20 Nov, 2018 - 4:00 pm",
     content:
-      "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet."
+      "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.",
   },
   {
     image: commentImage2,
     name: "Jessica Brown",
     data: "20 Nov, 2018 - 4:00 pm",
     content:
-      "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet."
-  }
+      "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.",
+  },
 ];
 
 import portfolio01 from "@/images/portfolio/1.jpg";
@@ -397,38 +410,38 @@ export const PortfolioData = [
     title: "Design Styles",
     categories: ["all", "graphic"],
     image: portfolio01,
-    url: "/portfolio-details"
+    url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
     image: portfolio02,
-    url: "/portfolio-details"
+    url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
     image: portfolio03,
-    url: "/portfolio-details"
+    url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
     image: portfolio04,
-    url: "/portfolio-details"
+    url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
     image: portfolio05,
-    url: "/portfolio-details"
+    url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
     image: portfolio06,
-    url: "/portfolio-details"
-  }
+    url: "/portfolio-details",
+  },
 ];
 
 export const PortfolioFilters = [
@@ -436,7 +449,7 @@ export const PortfolioFilters = [
   { name: "graphic" },
   { name: "branding" },
   { name: "marketing" },
-  { name: "logos" }
+  { name: "logos" },
 ];
 
 import portfolioD01 from "@/images/portfolio/7.jpg";
@@ -445,108 +458,101 @@ import portfolioD02 from "@/images/portfolio/8.jpg";
 export const PortfolioDetailsData = {
   gallery: [{ image: portfolioD01 }, { image: portfolioD02 }],
   title: "Design Styles",
-  text:
-    " Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet ultrices dolores sit ipsum velit purus aliquet massa fringilla leo orci. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci dolors sit amet elit amet. ",
+  text: " Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet ultrices dolores sit ipsum velit purus aliquet massa fringilla leo orci. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci dolors sit amet elit amet. ",
   client: "Jessica Brown",
   categories: [
     {
       name: "Graphic,",
-      url: "#"
+      url: "#",
     },
     {
       name: "Illustrations,",
-      url: "#"
-    }
+      url: "#",
+    },
   ],
   date: "8 Nov, 2018",
   socials: [
     {
       name: "Facebook",
-      url: "#"
+      url: "#",
     },
     {
       name: "Twitter",
-      url: "#"
+      url: "#",
     },
     {
       name: "Linkedin",
-      url: "#"
-    }
-  ]
+      url: "#",
+    },
+  ],
 };
 
 export const ServicePostData = [
   {
     title: "Modren Design",
-    text:
-      "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
+    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-settings",
-    url: "/service-details"
+    url: "/service-details",
   },
   {
     title: "Digital products",
-    text:
-      "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
+    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-transfer",
-    url: "/service-details"
+    url: "/service-details",
   },
   {
     title: "Marketing Strategy",
-    text:
-      "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
+    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-pie-chart",
-    url: "/service-details"
-  }
+    url: "/service-details",
+  },
 ];
 
 export const ServiceHomeTwoData = {
   subTitle: "welcome to smart meipaly web agency",
   title: "We design digital products that \n help grow businesses.",
-  text:
-    "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
+  text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
 };
 
 export const ServiceHomeThreeData = {
   subTitle: "Services we are offering",
   title: "Our Services",
-  text:
-    "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
+  text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
 };
 
 export const ServicePostTwoData = {
   sectionContent: {
     title: "We design digital products that \n help grow businesses.",
     subTitle: "Services we are offering",
-    text:
-      "We are committed to providing our customers with exceptional service \n while offering our employees the best training."
+    text: "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
   },
   posts: [
     {
       title: "Website Development",
       iconName: "mei-web-design",
-      url: "/service-details"
+      url: "/service-details",
     },
     {
       title: "Graphic Designing",
       iconName: "mei-computer-graphic",
-      url: "/service-details"
+      url: "/service-details",
     },
     {
       title: "Digital Marketing",
       iconName: "mei-development-1",
-      url: "/service-details"
+      url: "/service-details",
     },
     {
       title: "SEo & Content Writing",
       iconName: "mei-development",
-      url: "/service-details"
+      url: "/service-details",
     },
     {
       title: "App Development",
       iconName: "mei-app-development",
-      url: "/service-details"
-    }
-  ]
+      url: "/service-details",
+    },
+  ],
 };
 
 import serviceOne01 from "@/images/home_1/6.jpg";
@@ -557,45 +563,44 @@ export const ServicePostThreeData = {
   sectionContent: {
     title: "Let’s create something",
     subTitle: "what we do",
-    text:
-      "We are committed to providing our customers with exceptional service \n while offering our employees the best training."
+    text: "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
   },
   posts: [
     {
       title: "web development",
       image: serviceOne01,
-      url: "/service-details"
+      url: "/service-details",
     },
     {
       title: "digital marketing",
       image: serviceOne02,
-      url: "/service-details"
+      url: "/service-details",
     },
     {
       title: "product branding",
       image: serviceOne03,
-      url: "/service-details"
-    }
-  ]
+      url: "/service-details",
+    },
+  ],
 };
 
 export const FunfactData = [
   {
     title: "Projects Completed",
-    countNumber: 705
+    countNumber: 705,
   },
   {
     title: "Active Clients",
-    countNumber: 480
+    countNumber: 480,
   },
   {
     title: "Cups of Coffee",
-    countNumber: 626
+    countNumber: 626,
   },
   {
     title: "Happy Clients",
-    countNumber: 774
-  }
+    countNumber: 774,
+  },
 ];
 
 import trustClient01 from "@/images/home_1/4.jpg";
@@ -603,9 +608,8 @@ import trustClient01 from "@/images/home_1/4.jpg";
 export const TrustClientData = {
   image: trustClient01,
   title: "We are trusted by more than 8900 clients",
-  text:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita-tion ullamco laboris nisi ut aliquip ex ea commodo.",
-  url: "/about"
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita-tion ullamco laboris nisi ut aliquip ex ea commodo.",
+  url: "/about",
 };
 
 import ClientCarousel01 from "@/images/client/1.png";
@@ -618,31 +622,30 @@ export const ClientCarouselData = {
   sectionContent: {
     title: "they trust us",
     subTitle: "our clients",
-    text:
-      "We are committed to providing our customers with exceptional service \n while offering our employees the best training."
+    text: "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
   },
   items: [
     {
       url: "#",
-      image: ClientCarousel01
+      image: ClientCarousel01,
     },
     {
       url: "#",
-      image: ClientCarousel02
+      image: ClientCarousel02,
     },
     {
       url: "#",
-      image: ClientCarousel03
+      image: ClientCarousel03,
     },
     {
       url: "#",
-      image: ClientCarousel04
+      image: ClientCarousel04,
     },
     {
       url: "#",
-      image: ClientCarousel05
-    }
-  ]
+      image: ClientCarousel05,
+    },
+  ],
 };
 
 import aboutOne01 from "@/images/about/1.jpg";
@@ -651,13 +654,13 @@ import aboutOne02 from "@/images/about/2.jpg";
 export const AboutOneData = {
   sectionContent: {
     title: "build better website alot quicker with meipaly agency",
-    subTitle: "get to know us"
+    subTitle: "get to know us",
   },
   gallery: [aboutOne01, aboutOne02],
   counter: {
     title: "Company Started",
-    number: 1990
-  }
+    number: 1990,
+  },
 };
 
 import team01 from "@/images/team/1.jpg";
@@ -670,8 +673,7 @@ export const TeamOneData = {
   sectionContent: {
     title: "expert people",
     subTitle: "meet the team",
-    text:
-      "We are committed to providing our customers with exceptional service \n while offering our employees the best training."
+    text: "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
   },
   posts: [
     {
@@ -682,17 +684,17 @@ export const TeamOneData = {
       socials: [
         {
           name: "Facebook",
-          url: "#"
+          url: "#",
         },
         {
           name: "Twitter",
-          url: "#"
+          url: "#",
         },
         {
           name: "Linkedin",
-          url: "#"
-        }
-      ]
+          url: "#",
+        },
+      ],
     },
     {
       image: team02,
@@ -702,17 +704,17 @@ export const TeamOneData = {
       socials: [
         {
           name: "Facebook",
-          url: "#"
+          url: "#",
         },
         {
           name: "Twitter",
-          url: "#"
+          url: "#",
         },
         {
           name: "Linkedin",
-          url: "#"
-        }
-      ]
+          url: "#",
+        },
+      ],
     },
     {
       image: team03,
@@ -722,17 +724,17 @@ export const TeamOneData = {
       socials: [
         {
           name: "Facebook",
-          url: "#"
+          url: "#",
         },
         {
           name: "Twitter",
-          url: "#"
+          url: "#",
         },
         {
           name: "Linkedin",
-          url: "#"
-        }
-      ]
+          url: "#",
+        },
+      ],
     },
     {
       image: team04,
@@ -742,17 +744,17 @@ export const TeamOneData = {
       socials: [
         {
           name: "Facebook",
-          url: "#"
+          url: "#",
         },
         {
           name: "Twitter",
-          url: "#"
+          url: "#",
         },
         {
           name: "Linkedin",
-          url: "#"
-        }
-      ]
+          url: "#",
+        },
+      ],
     },
     {
       image: team05,
@@ -762,19 +764,19 @@ export const TeamOneData = {
       socials: [
         {
           name: "Facebook",
-          url: "#"
+          url: "#",
         },
         {
           name: "Twitter",
-          url: "#"
+          url: "#",
         },
         {
           name: "Linkedin",
-          url: "#"
-        }
-      ]
-    }
-  ]
+          url: "#",
+        },
+      ],
+    },
+  ],
 };
 
 import video01 from "@/images/about/3.jpg";
@@ -783,21 +785,20 @@ export const VideoOneData = {
   sectionContent: {
     title: "Make amazing websites without touching cod",
     subTitle: "the only design you need",
-    text:
-      "Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet."
+    text: "Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet.",
   },
   video: {
     image: video01,
     ID: "y2Eqx6ys1hQ",
-    title: "Watch Video"
-  }
+    title: "Watch Video",
+  },
 };
 
 export const SubscribeFormData = {
   sectionContent: {
     title: "Subscribe us",
-    subTitle: "don’t miss out our latest updates"
-  }
+    subTitle: "don’t miss out our latest updates",
+  },
 };
 
 import testimonial01 from "@/images/home_1/t1.jpg";
@@ -807,7 +808,7 @@ import testimonial03 from "@/images/home_1/t3.jpg";
 export const TestimonialsOneData = {
   sectionContent: {
     subTitle: "our testimonials",
-    title: "happy customers"
+    title: "happy customers",
   },
   posts: [
     {
@@ -816,7 +817,7 @@ export const TestimonialsOneData = {
       image: testimonial01,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
+      date: "25 nov, 2018",
     },
     {
       name: "Chase Hanson",
@@ -824,7 +825,7 @@ export const TestimonialsOneData = {
       image: testimonial02,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
+      date: "25 nov, 2018",
     },
     {
       name: "Mittie Flores",
@@ -832,7 +833,7 @@ export const TestimonialsOneData = {
       image: testimonial03,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
+      date: "25 nov, 2018",
     },
     {
       name: "Carrie Sims",
@@ -840,7 +841,7 @@ export const TestimonialsOneData = {
       image: testimonial01,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
+      date: "25 nov, 2018",
     },
     {
       name: "Anne Stone",
@@ -848,7 +849,7 @@ export const TestimonialsOneData = {
       image: testimonial02,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
+      date: "25 nov, 2018",
     },
     {
       name: "Hunter Brewer",
@@ -856,7 +857,7 @@ export const TestimonialsOneData = {
       image: testimonial03,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
+      date: "25 nov, 2018",
     },
     {
       name: "Carrie Sims",
@@ -864,7 +865,7 @@ export const TestimonialsOneData = {
       image: testimonial01,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
+      date: "25 nov, 2018",
     },
     {
       name: "Anne Stone",
@@ -872,7 +873,7 @@ export const TestimonialsOneData = {
       image: testimonial02,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
+      date: "25 nov, 2018",
     },
     {
       name: "Hunter Brewer",
@@ -880,9 +881,9 @@ export const TestimonialsOneData = {
       image: testimonial03,
       content:
         "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
-      date: "25 nov, 2018"
-    }
-  ]
+      date: "25 nov, 2018",
+    },
+  ],
 };
 
 import featureTab01 from "@/images/home_1/c1.jpg";
@@ -893,8 +894,7 @@ export const FeatureTabData = {
   sectionContent: {
     title: "why choose us",
     subTitle: "our benefits",
-    text:
-      "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
+    text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
   },
   posts: [
     {
@@ -904,24 +904,24 @@ export const FeatureTabData = {
       image: featureTab01,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock"
+          item: "Self-contained, state-of-the-art time clock",
         },
         {
-          item: "Scalability of up to 500 employees per time clock"
+          item: "Scalability of up to 500 employees per time clock",
         },
         {
-          item: "The ability to connect up to 32 time clocks"
+          item: "The ability to connect up to 32 time clocks",
         },
         {
-          item: "Employee self-enrollment"
+          item: "Employee self-enrollment",
         },
         {
-          item: "Payroll integration"
+          item: "Payroll integration",
         },
         {
-          item: "Built-in backup camera to verify failed punches"
-        }
-      ]
+          item: "Built-in backup camera to verify failed punches",
+        },
+      ],
     },
     {
       title: "Awesome Support",
@@ -930,24 +930,24 @@ export const FeatureTabData = {
       image: featureTab02,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock"
+          item: "Self-contained, state-of-the-art time clock",
         },
         {
-          item: "Scalability of up to 500 employees per time clock"
+          item: "Scalability of up to 500 employees per time clock",
         },
         {
-          item: "The ability to connect up to 32 time clocks"
+          item: "The ability to connect up to 32 time clocks",
         },
         {
-          item: "Employee self-enrollment"
+          item: "Employee self-enrollment",
         },
         {
-          item: "Payroll integration"
+          item: "Payroll integration",
         },
         {
-          item: "Built-in backup camera to verify failed punches"
-        }
-      ]
+          item: "Built-in backup camera to verify failed punches",
+        },
+      ],
     },
     {
       title: "1 Click demo install",
@@ -956,43 +956,41 @@ export const FeatureTabData = {
       image: featureTab03,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock"
+          item: "Self-contained, state-of-the-art time clock",
         },
         {
-          item: "Scalability of up to 500 employees per time clock"
+          item: "Scalability of up to 500 employees per time clock",
         },
         {
-          item: "The ability to connect up to 32 time clocks"
+          item: "The ability to connect up to 32 time clocks",
         },
         {
-          item: "Employee self-enrollment"
+          item: "Employee self-enrollment",
         },
         {
-          item: "Payroll integration"
+          item: "Payroll integration",
         },
         {
-          item: "Built-in backup camera to verify failed punches"
-        }
-      ]
-    }
-  ]
+          item: "Built-in backup camera to verify failed punches",
+        },
+      ],
+    },
+  ],
 };
 
 export const ParallaxOneData = {
   iconName: "mei-team",
   title: "Great things in business are never done by one person.",
   specialText: "They’re done by a team of people.",
-  text:
-    "We are committed to providing our customers with exceptional service while \n offering our employees the best training."
+  text: "We are committed to providing our customers with exceptional service while \n offering our employees the best training.",
 };
 
 export const PortfolioHomeData = {
   sectionContent: {
     title: "work showcase",
     subTitle: "our portfolio",
-    text:
-      "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
-  }
+    text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+  },
 };
 
 import video02 from "@/images/home_1/3.jpg";
@@ -1001,14 +999,13 @@ export const VideoTwoData = {
   sectionContent: {
     title: "Digital Experience",
     subTitle: "how do we works",
-    text:
-      "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
+    text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
   },
   video: {
     title: "Watch Video",
     ID: "y2Eqx6ys1hQ",
-    image: video02
-  }
+    image: video02,
+  },
 };
 
 import aboutTwo01 from "@/images/home_1/2.jpg";
@@ -1018,14 +1015,13 @@ export const AboutTwoData = {
   sectionContent: {
     title: "We are the Best Website agency in The World",
     subTitle: "welcom to smart meipaly web agency",
-    text:
-      "We are committed to providing our customers with exceptional service while offering our employees the best training. Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 1500s."
+    text: "We are committed to providing our customers with exceptional service while offering our employees the best training. Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 1500s.",
   },
   button: {
     label: "Learn More",
-    url: "#"
+    url: "#",
   },
-  gallery: [aboutTwo01, aboutTwo02]
+  gallery: [aboutTwo01, aboutTwo02],
 };
 
 import featureTwo01 from "@/images/home_1/5.jpg";
@@ -1034,39 +1030,35 @@ export const FeatureTwoData = {
   sectionContent: {
     title: "real experience",
     subTitle: "our core features",
-    text:
-      " We are committed to providing our customers with exceptional service while offering our employees the best training. "
+    text: " We are committed to providing our customers with exceptional service while offering our employees the best training. ",
   },
   posts: [
     {
       title: "No Coding Skills Require",
-      text:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered."
+      text: "There are many variations of passages of lorem ipsum available, but the majority have suffered.",
     },
     {
       title: "Online Documentation",
-      text:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered."
+      text: "There are many variations of passages of lorem ipsum available, but the majority have suffered.",
     },
     {
       title: "SEO Optimized",
-      text:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered."
-    }
+      text: "There are many variations of passages of lorem ipsum available, but the majority have suffered.",
+    },
   ],
   image: {
     text: "Total design freedom \n for everyone.",
-    path: featureTwo01
-  }
+    path: featureTwo01,
+  },
 };
 
 export const CallToActionTwoData = [
   {
     label: "View our Recent Work",
-    url: "/portfolio"
+    url: "/portfolio",
   },
   {
     label: "Reqeust a free quote",
-    url: "/contact"
-  }
+    url: "/contact",
+  },
 ];
