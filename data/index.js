@@ -1,5 +1,5 @@
 import logoLight from "@/images/logo.png";
-import logoDark from "@/images/logo2.png";
+import logoDark from "@/images/logo.png";
 import mbcstandard from '@/images/std_dumb_bodies.jpeg'
 import tubtruck from '@/images/tub_body_trucks.jpeg'
 
