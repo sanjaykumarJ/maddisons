@@ -1,9 +1,85 @@
 import logoLight from "@/images/logo.png";
 import logoDark from "@/images/logo2.png";
+import mbcstandard from '@/images/std_dumb_bodies.jpeg'
+import tubtruck from '@/images/tub_body_trucks.jpeg'
 
 export const LogoImage = {
   light: logoLight,
   dark: logoDark,
+};
+
+export const products = {
+  "mbc-standard-series": {
+    name: "MBC Standard Series",
+    imgSrc: mbcstandard,
+    desc1:
+      "MBC standard dump bodies are made up of rugged steel with high strength and stability which gives ample storage space for your light, medium and heavy duty jobs.",
+    desc2:
+      "Tub dump body have a rounded floor and lower centre of gravity to give it the strength and stability needed for heavy hauling. Loads can be shed cleanly from the curved body shell minimizing waste and improving unload time. Tub Dump Body will guarantee the hauling strength for any job. MBC tub series are the ideal solution for light, medium and heavy jobs which provides quality, durability, reliability, sustainability and versatility.",
+    specs: {
+      title1: "Specification",
+      title2: "Property",
+      value: {
+        "Available Body Length": "15', 17', 19', 21', 24' (feet)",
+        "Sides heights": "42’’, 48’’, 54’’, 60’’",
+        "Door heights": "42’’, 48’’, 54’’, 60’’",
+        "Approx. weight": "3900 lbs - 5000 lbs",
+      },
+    },
+    features: [
+      "Standard Swing tailgate, High lift tailgate",
+      "Smooth tapered side",
+      "Custom latch mechanism",
+      "Flat Floor",
+    ],
+    material: {
+      title1: "material",
+      title2: "Property",
+      values: {
+        Sides: 'AR450 - 3/16\'\', AR500 - 1/8", AR400 - 3/16", AR400 - 1/4"',
+        "Dog House": "AR450 - 3/16'', AR500 - 1/8\"",
+        Floor: "AR450 - 1/4'', AR450 - 3/16\", A500 - 3/16\"",
+        Tailgate: "AR450 - 1/4'', AR450 - 3/16\"",
+        "Long Member": "AR400/ - 1/4'', AR250 - 3/16\"",
+      },
+    },
+  },
+
+  "mbc-tub-series": {
+    name: "MBC Tub Series",
+    imgSrc: tubtruck,
+    desc1:
+      "MBC tub series is the ideal body for light, medium and heavy jobs which provides quality, durability, reliability, sustainability and versatility.",
+    desc2:
+      "Tub dump body have a rounded floor and lower centre of gravity to give it the strength and stability needed for heavy hauling. Loads can be shed cleanly from the curved body shell minimizing waste and improving unload time. Tub Dump Body will guarantee the hauling strength for any job. MBC tub series are the ideal solution for light, medium and heavy jobs which provides quality, durability, reliability, sustainability and versatility.",
+    specs: {
+      title1: "Specification",
+      title2: "Property",
+      value: {
+        "Available Body Length": "15', 17', 19', 21', 24' (feet)",
+        "Sides heights": "42’’, 48’’, 54’’, 60’’",
+        "Door heights": "42’’, 48’’, 54’’, 60’’",
+        "Approx. weight": "3900 lbs - 5000 lbs",
+      },
+    },
+    features: [
+      "Standard Swing tailgate, High lift tailgate",
+      "Smooth tapered side",
+      "Custom latch mechanism",
+      "Flat Floor",
+    ],
+    material: {
+      title1: "material",
+      title2: "Property",
+      values: {
+        Sides: 'AR450 - 3/16\'\', AR500 - 1/8", AR400 - 3/16", AR400 - 1/4"',
+        "Dog House": "AR450 - 3/16'', AR500 - 1/8\"",
+        Floor: "AR450 - 1/4'', AR450 - 3/16\", A500 - 3/16\"",
+        Tailgate: "AR450 - 1/4'', AR450 - 3/16\"",
+        "Long Member": "AR400/ - 1/4'', AR250 - 3/16\"",
+      },
+    },
+  },
 };
 
 export const NavLinks = [
@@ -29,8 +105,8 @@ export const NavLinks = [
     name: "Dump Bodies",
     url:'',
     subItems: [
-      { name: "Mbc Standard Series", url: "/mbc-standard" },
-      { name: "Mbc Tub series", url: "/mbc-tub" },
+      { name: "Mbc Standard Series", url: "products/?name=mbc-standard-series" },
+      { name: "Mbc Tub series", url: "products/?name=mbc-tub-series" },
     ],
   },
   {
@@ -105,8 +181,8 @@ import sliderOne02 from "@/images/slider/1_2.jpeg";
 export const SliderOneData = [
   {
     image: sliderOne01,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    subTitle: "WELCOME TO MADISONS",
+    title: "The Crème de la crème of Dump Bodies",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
@@ -114,8 +190,26 @@ export const SliderOneData = [
   },
   {
     image: sliderOne02,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    subTitle: "WELCOME TO MADISONS",
+    title: "Truck Warriors needs better Arsenal.",
+    button: {
+      label: "DISCOVER MORE",
+      url: "/about",
+    },
+  },
+  {
+    image: sliderOne01,
+    subTitle: "WELCOME TO MADISONS",
+    title: "The Strongest are not the heaviest.",
+    button: {
+      label: "DISCOVER MORE",
+      url: "/about",
+    },
+  },
+  {
+    image: sliderOne02,
+    subTitle: "WELCOME TO MADISONS",
+    title: "Pick on the right size.",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
