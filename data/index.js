@@ -992,22 +992,22 @@ export const FeatureTabData = {
   },
   posts: [
     {
-      title: "Latest technology",
+      title: "History",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+      "Located at the heart of Madison, Wisconsin – Madison Body Company (MBC) started its operations on February 16, 1961, as Madison Truck Equipment, Inc. Surpassing the diamond jubilee in 2021, MBC continues to design and deliver the Truck Bodies with the values and resourcefulness imbibed by its Founder, Michael P.Dwyer, who would correlate every synonymous term of elegance with dump trucks as he’s been a passionate craftsman of engineering trucks for more than six decades.",
       image: featureTab01,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "At the present day, Madison is burgeoning in the dump body industry with its modernized designing and manufacturing technologies ensuring that their iconic outputs catch some eyes its course.",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "MBC effaces the superannuated dump body designs, but not without reconciling their nifty legacy. Their team brings forth the dump bodies crafted to meet the needs of the future, thus it stays in the current trend in the longer run.",
         },
         {
-          item: "The ability to connect up to 32 time clocks",
+          item: "Every dump body on wheels acts as a testament to their engineering marvel, thus results ultimately in client retention.",
         },
         {
-          item: "Employee self-enrollment",
+          item: "Over the journey, MBC traveled through the crests and troughs of economic and political changes in the state. Thanks to the leadership, and cohesiveness of our team, stakeholders, and customers.",
         },
         {
           item: "Payroll integration",
@@ -1044,7 +1044,7 @@ export const FeatureTabData = {
       ],
     },
     {
-      title: "1 Click demo install",
+      title: "Latest Technology",
       content:
         "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
       image: featureTab03,
