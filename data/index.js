@@ -772,8 +772,8 @@ export const TeamOneData = {
   posts: [
     {
       image: team01,
-      name: "Herman Fisher",
-      designation: "General Manager",
+      name: "Becky Sanchez",
+      designation: "Inside Sales",
       url: "#",
       socials: [
         {
@@ -792,8 +792,8 @@ export const TeamOneData = {
     },
     {
       image: team02,
-      name: "Charlie Kennedy",
-      designation: "Brand Designer",
+      name: "Anne Sanchez",
+      designation: "Inside Sales",
       url: "",
       socials: [
         {
@@ -812,8 +812,8 @@ export const TeamOneData = {
     },
     {
       image: team03,
-      name: "Helena Adkins",
-      designation: "Seinor Designer",
+      name: "Kurt Schadewalt",
+      designation: "Municipal Sales",
       url: "#",
       socials: [
         {
@@ -832,8 +832,8 @@ export const TeamOneData = {
     },
     {
       image: team04,
-      name: "Virginia Farmer",
-      designation: "Marketing Manager",
+      name: "Mark Downs",
+      designation: "Service",
       url: "#",
       socials: [
         {
@@ -852,8 +852,8 @@ export const TeamOneData = {
     },
     {
       image: team05,
-      name: "Philip Hansen",
-      designation: "Co Founder",
+      name: "Kevin Zaemisch",
+      designation: "Parts",
       url: "#",
       socials: [
         {

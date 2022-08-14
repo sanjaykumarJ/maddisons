@@ -13,10 +13,7 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a>
               <p>
-                Welcome to our web design agency. Lorem ipsum is simply free
-                text dolor sit amet consectetur adipisicing elit. Tempore
-                corrupti temporibus fuga earum asperiores, alias excepturi sit
-                mpedit fugit laudantium.
+                Welcome to our Truck design company we design, build and maintain macho machines.
               </p>
             </aside>
           </div>
@@ -24,13 +21,13 @@ const Footer = () => {
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
               <p>
-                66 Broklyn Street, New York
+              Madison Body Company, 1301 S Stoughton Rd,Madison, WI 53716
                 <br />
                 United States of America
               </p>
-              <p>P: 666 888 000</p>
+              <p>P: +1 (608) 222-5591</p>
               <p>
-                E: <a href="#">needhelp@meipaly.com</a>
+                E: <a href="#">sales@madisonbodycompany.com</a>
               </p>
             </aside>
           </div>
